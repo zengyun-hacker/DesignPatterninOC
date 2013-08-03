@@ -10,4 +10,6 @@
 
 @interface Translator : BasketballPlayer
 
+@property (nonatomic,strong) BasketballPlayer *baseketPlayer;
+
 @end

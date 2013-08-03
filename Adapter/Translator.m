@@ -10,4 +10,11 @@
 
 @implementation Translator
 
+- (NSString *)attack {
+    return [self.baseketPlayer attack];
+}
+- (NSString *)defense {
+    return [self.baseketPlayer defense];
+}
+
 @end

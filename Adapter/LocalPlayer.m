@@ -10,4 +10,12 @@
 
 @implementation LocalPlayer
 
+- (NSString *)attack{
+    return [NSString stringWithFormat:@"%@ attack",self.playerName];
+}
+
+- (NSString *)defense {
+    return [NSString stringWithFormat:@"%@ defense",self.playerName];
+}
+
 @end

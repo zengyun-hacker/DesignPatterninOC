@@ -10,4 +10,9 @@
 
 @interface BasketballPlayer : NSObject
 
+@property (nonatomic,strong) NSString *playerName;
+
+- (NSString *)attack;
+- (NSString *)defense;
+
 @end

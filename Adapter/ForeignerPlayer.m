@@ -10,4 +10,12 @@
 
 @implementation ForeignerPlayer
 
+- (NSString *)attack{
+    return [NSString stringWithFormat:@"%@ 进攻",self.playerName];
+}
+
+- (NSString *)defense {
+    return [NSString stringWithFormat:@"%@ 防守",self.playerName];
+}
+
 @end
