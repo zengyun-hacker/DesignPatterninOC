@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "FacadeImplement.h"
+#import "ObserverImplement.h"
 
 @interface ViewController ()
 
@@ -19,7 +19,8 @@
 {
     [super viewDidLoad];
 	
-    [FacadeImplement implement];
+    AbstractImplement *implement = [[ObserverImplement alloc] init];
+    [implement implement];
 }
 
 - (void)didReceiveMemoryWarning

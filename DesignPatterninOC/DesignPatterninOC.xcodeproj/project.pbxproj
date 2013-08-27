@@ -34,6 +34,14 @@
 		BD8B66E417C4393B0000244B /* FacadeImplement.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8B66E317C4393B0000244B /* FacadeImplement.m */; };
 		BD8B66E717C439CC0000244B /* Fund.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8B66E617C439CC0000244B /* Fund.m */; };
 		BD8B66EB17C6D9ED0000244B /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8B66EA17C6D9ED0000244B /* Car.m */; };
+		BD8B66EF17CCDD800000244B /* Observer.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8B66EE17CCDD800000244B /* Observer.m */; };
+		BD8B66F217CCDE8B0000244B /* StockObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8B66F117CCDE8B0000244B /* StockObserver.m */; };
+		BD8B66F517CCDED90000244B /* NBAObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8B66F417CCDED90000244B /* NBAObserver.m */; };
+		BD8B66F817CCDEF60000244B /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8B66F717CCDEF60000244B /* Subject.m */; };
+		BD8B66FB17CCDF9D0000244B /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8B66FA17CCDF9D0000244B /* Boss.m */; };
+		BD8B66FE17CCE0610000244B /* Secretary.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8B66FD17CCE0610000244B /* Secretary.m */; };
+		BD8B670217CCE1330000244B /* AbstractImplement.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8B670117CCE1330000244B /* AbstractImplement.m */; };
+		BD8B670517CCE1600000244B /* ObserverImplement.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8B670417CCE1600000244B /* ObserverImplement.m */; };
 		BD8D651A17B9ACBB000629E3 /* Persuit.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8D651917B9ACBB000629E3 /* Persuit.m */; };
 		BD8D651D17B9AD6F000629E3 /* Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8D651C17B9AD6F000629E3 /* Delegate.m */; };
 		BD8D652117BF1757000629E3 /* LeiFeng.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8D652017BF1757000629E3 /* LeiFeng.m */; };
@@ -99,6 +107,22 @@
 		BD8B66E617C439CC0000244B /* Fund.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fund.m; sourceTree = "<group>"; };
 		BD8B66E917C6D9ED0000244B /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		BD8B66EA17C6D9ED0000244B /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		BD8B66ED17CCDD800000244B /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		BD8B66EE17CCDD800000244B /* Observer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Observer.m; sourceTree = "<group>"; };
+		BD8B66F017CCDE8B0000244B /* StockObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StockObserver.h; sourceTree = "<group>"; };
+		BD8B66F117CCDE8B0000244B /* StockObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StockObserver.m; sourceTree = "<group>"; };
+		BD8B66F317CCDED90000244B /* NBAObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBAObserver.h; sourceTree = "<group>"; };
+		BD8B66F417CCDED90000244B /* NBAObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBAObserver.m; sourceTree = "<group>"; };
+		BD8B66F617CCDEF60000244B /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		BD8B66F717CCDEF60000244B /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
+		BD8B66F917CCDF9D0000244B /* Boss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boss.h; sourceTree = "<group>"; };
+		BD8B66FA17CCDF9D0000244B /* Boss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
+		BD8B66FC17CCE0610000244B /* Secretary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Secretary.h; sourceTree = "<group>"; };
+		BD8B66FD17CCE0610000244B /* Secretary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Secretary.m; sourceTree = "<group>"; };
+		BD8B670017CCE1330000244B /* AbstractImplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractImplement.h; sourceTree = "<group>"; };
+		BD8B670117CCE1330000244B /* AbstractImplement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractImplement.m; sourceTree = "<group>"; };
+		BD8B670317CCE1600000244B /* ObserverImplement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObserverImplement.h; sourceTree = "<group>"; };
+		BD8B670417CCE1600000244B /* ObserverImplement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObserverImplement.m; sourceTree = "<group>"; };
 		BD8D651717B9AA59000629E3 /* GiveGift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiveGift.h; sourceTree = "<group>"; };
 		BD8D651817B9ACBB000629E3 /* Persuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persuit.h; sourceTree = "<group>"; };
 		BD8D651917B9ACBB000629E3 /* Persuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Persuit.m; sourceTree = "<group>"; };
@@ -147,6 +171,7 @@
 		BD45DAD817ACA05E000F4E6D = {
 			isa = PBXGroup;
 			children = (
+				BD8B66EC17CCDD030000244B /* Observer */,
 				BD8B66E817C588E80000244B /* Builder */,
 				BD8B66D217C437B40000244B /* Facade */,
 				BD8D651E17BF14C6000629E3 /* Factory Method */,
@@ -181,6 +206,7 @@
 		BD45DAEA17ACA05E000F4E6D /* DesignPatterninOC */ = {
 			isa = PBXGroup;
 			children = (
+				BD8B66FF17CCE11B0000244B /* implement */,
 				BD45DAF317ACA05E000F4E6D /* AppDelegate.h */,
 				BD45DAF417ACA05E000F4E6D /* AppDelegate.m */,
 				BD45DAFC17ACA05E000F4E6D /* MainStoryboard.storyboard */,
@@ -268,6 +294,37 @@
 			name = Builder;
 			path = ../Builder;
 			sourceTree = "<group>";
+		};
+		BD8B66EC17CCDD030000244B /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				BD8B66ED17CCDD800000244B /* Observer.h */,
+				BD8B66EE17CCDD800000244B /* Observer.m */,
+				BD8B66F017CCDE8B0000244B /* StockObserver.h */,
+				BD8B66F117CCDE8B0000244B /* StockObserver.m */,
+				BD8B66F317CCDED90000244B /* NBAObserver.h */,
+				BD8B66F417CCDED90000244B /* NBAObserver.m */,
+				BD8B66F617CCDEF60000244B /* Subject.h */,
+				BD8B66F717CCDEF60000244B /* Subject.m */,
+				BD8B66F917CCDF9D0000244B /* Boss.h */,
+				BD8B66FA17CCDF9D0000244B /* Boss.m */,
+				BD8B66FC17CCE0610000244B /* Secretary.h */,
+				BD8B66FD17CCE0610000244B /* Secretary.m */,
+				BD8B670317CCE1600000244B /* ObserverImplement.h */,
+				BD8B670417CCE1600000244B /* ObserverImplement.m */,
+			);
+			name = Observer;
+			path = ../Observer;
+			sourceTree = "<group>";
+		};
+		BD8B66FF17CCE11B0000244B /* implement */ = {
+			isa = PBXGroup;
+			children = (
+				BD8B670017CCE1330000244B /* AbstractImplement.h */,
+				BD8B670117CCE1330000244B /* AbstractImplement.m */,
+			);
+			path = implement;
+			sourceTree = SOURCE_ROOT;
 		};
 		BD8D651617B9AA41000629E3 /* Delegate */ = {
 			isa = PBXGroup;
@@ -421,6 +478,14 @@
 				BD8B66E417C4393B0000244B /* FacadeImplement.m in Sources */,
 				BD8B66E717C439CC0000244B /* Fund.m in Sources */,
 				BD8B66EB17C6D9ED0000244B /* Car.m in Sources */,
+				BD8B66EF17CCDD800000244B /* Observer.m in Sources */,
+				BD8B66F217CCDE8B0000244B /* StockObserver.m in Sources */,
+				BD8B66F517CCDED90000244B /* NBAObserver.m in Sources */,
+				BD8B66F817CCDEF60000244B /* Subject.m in Sources */,
+				BD8B66FB17CCDF9D0000244B /* Boss.m in Sources */,
+				BD8B66FE17CCE0610000244B /* Secretary.m in Sources */,
+				BD8B670217CCE1330000244B /* AbstractImplement.m in Sources */,
+				BD8B670517CCE1600000244B /* ObserverImplement.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
